@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="lang" data-ru="Nataly Postcrosser — Обо мне" data-en="Nataly Postcrosser — About Me">Nataly Postcrosser — Обо мне</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <canvas id="bg"></canvas>
+    <div id="plane">✈️</div>
+
+<header>
+    <div class="logo-wrapper">
+        <div class="logoWaves">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <img class="logoStamp" src="images/logo.png" alt="Logo">
+    </div>
+    <h1>Nataly Postcrosser</h1>
+    <p>From Kazakhstan with love</p>
+</header>
+
+    <nav>
+        <a href="index.html" class="lang" style="color: gold;" data-ru="Обо мне" data-en="About Me">Обо мне</a>
+        <a href="exchange.html" class="lang" data-ru="Обмен" data-en="Exchange">Обмен</a>
+        <a href="sent.html" class="lang" data-ru="Отправленные" data-en="Sent">Отправленные</a>
+        <a href="received.html" class="lang" data-ru="Полученные" data-en="Received">Полученные</a>
+        <a href="wishlist.html" class="lang" data-ru="Хотелки" data-en="Wishlist">Хотелки</a>
+
+        <div class="lang-switch">
+            <button onclick="setLanguage('ru')">RU</button>
+            <button onclick="setLanguage('en')">EN</button>
+        </div>
+    </nav>
+
+    <section id="about">
+        <h2 class="lang" data-ru="Обо мне" data-en="About Me">Обо мне</h2>
+        <div class="card">
+            <p class="lang" 
+               data-ru="Привет! Меня зовут Наталья. Я живу в Казахстане вместе с мужем, двумя детьми и нашими кошками." 
+               data-en="Hi! My name is Nataly. I live in Kazakhstan with my husband, our two children, and our cats.">
+               Привет! Меня зовут Наталья. Я живу в Казахстане вместе с мужем, двумя детьми и нашими кошками.
+            </p>
+            
+            <p class="lang" 
+               data-ru="Мы любим гулять всей семьёй в парке, читать книги, смотреть сериалы и иногда играть в компьютерные игры." 
+               data-en="As a family, we love walking in the park, reading books, watching TV shows, and occasionally playing video games.">
+               Мы любим гулять всей семьёй в парке, читать книги, смотреть сериалы и иногда играть в компьютерные игры.
+            </p>
+            
+            <p class="lang" 
+               data-ru="Недавно у меня появилось новое хобби — Postcrossing. Я пока новичок в этом удивительном мире открыток." 
+               data-en="Recently, I discovered a new hobby — Postcrossing. I'm still a beginner in this wonderful world of postcards.">
+               Недавно у меня появилось новое хобби — <b>Postcrossing</b>. Я пока новичок в этом удивительном мире открыток.
+            </p>
+            
+            <p class="lang" 
+               data-ru="Меня по‑настоящему завораживает мысль о том, что однажды в почтовом ящике может оказаться открытка от совершенно незнакомого человека из другой страны." 
+               data-en="I am truly fascinated by the thought that one day, a postcard from a complete stranger in another country might appear in my mailbox.">
+               Меня по‑настоящему завораживает мысль о том, что однажды в почтовом ящике может оказаться открытка от совершенно незнакомого человека из другой страны.
+            </p>
+            
+            <p class="lang" 
+               data-ru="Мне нравится выбирать красивые открытки, отправлять их в разные уголки мира и представлять, как они путешествуют через страны и города." 
+               data-en="I love picking out beautiful postcards, sending them to different corners of the world, and imagining their journey across countries and cities.">
+               Мне нравится выбирать красивые открытки, отправлять их в разные уголки мира и представлять, как они путешествуют через страны и города.
+            </p>
+            
+            <p class="lang" 
+               data-ru="Если вы тоже любите открытки — буду рада обмену 💌" 
+               data-en="If you love postcards too, I would be happy to do an exchange! 💌">
+               Если вы тоже любите открытки — буду рада обмену 💌
+            </p>
+            
+            <div style="margin-top: 30px; border-top: 1px dashed #d8c8a8; padding-top: 20px;">
+                <p>
+                    <b class="lang" data-ru="Telegram для связи:" data-en="Contact me on Telegram:">Telegram для связи:</b> 
+                    <a href="https://t.me/Biscuitty" target="_blank" style="text-decoration:none; color: #0088cc; font-weight: bold;">
+                        @Biscuitty
+                    </a>
+                </p>
+            </div>
+        </div>
+
+<div class="envelope-wrapper">
+    <div class="envelope" id="envelope">
+        <div class="flap"></div>
+        <div class="letter lang" data-ru="Привет из Казахстана 💌" data-en="Hello from Kazakhstan 💌">
+            Привет из Казахстана 💌
+        </div>
+    </div>
+</div>
+    </section>
+
+    <img class="scrollStamp" id="scrollStamp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Postmark.svg/240px-Postmark.svg.png">
+
+    <footer>
+        <p class="lang" data-ru="Связаться со мной в Telegram" data-en="Get in touch via Telegram">Связаться со мной в Telegram</p>
+        <p>
+            <a href="https://t.me/Biscuitty" target="_blank" style="text-decoration:none; color: white; font-weight: bold;">
+                @Biscuitty
+            </a>
+        </p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="lang" data-ru="Nataly Postcrosser — Отправленные открытки" data-en="Nataly Postcrosser — Sent Postcards">Nataly Postcrosser — Отправленные открытки</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <canvas id="bg"></canvas>
+
+    <div id="plane">✈️</div>
+
+<header>
+    <div class="logo-wrapper">
+        <div class="logoWaves">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <img class="logoStamp" src="images/logo.png" alt="Logo">
+    </div>
+    <h1>Nataly Postcrosser</h1>
+    <p>From Kazakhstan with love</p>
+</header>
+
+    <nav>
+        <a href="index.html" class="lang" data-ru="Обо мне" data-en="About Me">Обо мне</a>
+        <a href="exchange.html" class="lang" data-ru="Обмен" data-en="Exchange">Обмен</a>
+        <a href="sent.html" class="lang" style="color: gold;" data-ru="Отправленные" data-en="Sent">Отправленные</a>
+        <a href="received.html" class="lang" data-ru="Полученные" data-en="Received">Полученные</a>
+        <a href="wishlist.html" class="lang" data-ru="Хотелки" data-en="Wishlist">Хотелки</a>
+        
+        <div class="lang-switch">
+            <button onclick="setLanguage('ru')">RU</button>
+            <button onclick="setLanguage('en')">EN</button>
+        </div>
+    </nav>
+
+    <section id="sent">
+        <h2 class="lang" data-ru="Отправленные открытки" data-en="Sent Postcards">Отправленные открытки</h2>
+        <div class="card">
+            <p class="lang" 
+               data-ru="В этом разделе я публикую открытки, которые уже отправились в путь или уже дошли до своих адресатов в разные уголки мира." 
+               data-en="In this section, I share postcards that are already on their way or have already reached their recipients in different corners of the world.">
+               В этом разделе я публикую открытки, которые уже отправились в путь или уже дошли до своих адресатов в разные уголки мира.
+            </p>
+            <p class="lang" 
+               data-ru="Мне очень нравится процесс выбора марки и написания тёплых слов для людей, которых я никогда не видела, но с которыми меня связывает эта почтовая магия." 
+               data-en="I truly enjoy the process of choosing stamps and writing warm messages for people I've never met, but with whom I'm connected by this postal magic.">
+               Мне очень нравится процесс выбора марки и написания тёплых слов для людей, которых я никогда не видела, но с которыми меня связывает эта почтовая магия.
+            </p>
+        </div>
+
+        <div class="gallery">
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent1.jpg" 
+             data-full="images/full/Sent/sent1.jpg" 
+             alt="Sent postcard 1" 
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent2.jpg" 
+             data-full="images/full/Sent/sent2.jpg" 
+             alt="Sent postcard 2" 
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent3.jpg" 
+             data-full="images/full/Sent/sent3.jpg" 
+             alt="Sent postcard 3" 
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent4.jpg" 
+             data-full="images/full/Sent/sent4.jpg" 
+             alt="Sent postcard 4" 
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent5.jpg" 
+             data-full="images/full/Sent/sent5.jpg" 
+             alt="Sent postcard 5" 
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent6.jpg" 
+             data-full="images/full/Sent/sent6.jpg" 
+             alt="Sent postcard 6" 
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent7.jpg" 
+             data-full="images/full/Sent/sent7.jpg" 
+             alt="Sent postcard 7" 
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent8.jpg" 
+             data-full="images/full/Sent/sent8.jpg" 
+             alt="Sent postcard 8" 
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent9.jpg" 
+             data-full="images/full/Sent/sent9.jpg" 
+             alt="Sent postcard 9" 
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent10.jpg" 
+             data-full="images/full/Sent/sent10.jpg" 
+             alt="Sent postcard 10" 
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent11.jpg" 
+             data-full="images/full/Sent/sent11.jpg" 
+             alt="Sent postcard 11" 
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img src="images/thumbnails/Sent/sent12.jpg" 
+             data-full="images/full/Sent/sent12.jpg" 
+             alt="Sent postcard 12" 
+             loading="lazy">
+    </div>
+</div>
+    </section>
+
+    <img class="scrollStamp" id="scrollStamp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Postmark.svg/240px-Postmark.svg.png">
+
+        <div id="modal">
+        <button class="modal-prev" id="prevBtn">&#10094;</button>
+        <img id="modalImg" src="" alt="Zoom">
+        <button class="modal-next" id="nextBtn">&#10095;</button>
+    </div>
+
+    <footer>
+        <p class="lang" data-ru="Связаться со мной в Telegram" data-en="Get in touch via Telegram">Связаться со мной в Telegram</p>
+        <p>
+            <a href="https://t.me/Biscuitty" target="_blank" style="text-decoration:none; color: white; font-weight: bold;">
+                @Biscuitty
+            </a>
+        </p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="lang" data-ru="Nataly Postcrosser — Мои хотелки" data-en="Nataly Postcrosser — My Wishlist">Nataly Postcrosser — Мои хотелки</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <canvas id="bg"></canvas>
+
+    <div id="plane">✈️</div>
+
+<header>
+    <div class="logo-wrapper">
+        <div class="logoWaves">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <img class="logoStamp" src="images/logo.png" alt="Logo">
+    </div>
+    <h1>Nataly Postcrosser</h1>
+    <p>From Kazakhstan with love</p>
+</header>
+
+    <nav>
+        <a href="index.html" class="lang" data-ru="Обо мне" data-en="About Me">Обо мне</a>
+        <a href="exchange.html" class="lang" data-ru="Обмен" data-en="Exchange">Обмен</a>
+        <a href="sent.html" class="lang" data-ru="Отправленные" data-en="Sent">Отправленные</a>
+        <a href="received.html" class="lang" data-ru="Полученные" data-en="Received">Полученные</a>
+        <a href="wishlist.html" class="lang" style="color: gold;" data-ru="Хотелки" data-en="Wishlist">Хотелки</a>
+
+        <div class="lang-switch">
+            <button onclick="setLanguage('ru')">RU</button>
+            <button onclick="setLanguage('en')">EN</button>
+        </div>
+    </nav>
+
+    <section id="wishlist">
+        <h2 class="lang" data-ru="Хотелки" data-en="Wishlist">Хотелки</h2>
+        <div class="card">
+            <p class="lang" 
+               data-ru="Я буду рада любой открытке от вас! Сам факт того, что кто-то выбрал и отправил мне частичку тепла, уже делает меня счастливее." 
+               data-en="I will be happy to receive any postcard from you! The simple fact that someone chose and sent a piece of warmth to me already makes me happy.">
+               Я буду рада любой открытке от вас! Сам факт того, что кто-то выбрал и отправил мне частичку тепла, уже делает меня счастливее.
+            </p>
+            
+            <p class="lang" 
+               data-ru="Но если вам хочется попасть в самое сердце, то больше всего я приду в восторг от таких тем:" 
+               data-en="But if you'd like to send something close to my heart, I would be most delighted by these themes:">
+               Но если вам хочется попасть в самое сердце, то больше всего я приду в восторг от таких тем:
+            </p>
+            
+            <ul style="column-count: 2; list-style-type: '✉ '; padding-left: 20px;">
+                <li class="lang" data-ru="Акварельные картины" data-en="Watercolor paintings">Акварельные картины</li>
+                <li class="lang" data-ru="Винтажные открытки" data-en="Vintage postcards">Винтажные открытки</li>
+                <li class="lang" data-ru="Достопримечательности" data-en="Sightseeing / Landmarks">Достопримечательности</li>
+                <li class="lang" data-ru="Природа и животные" data-en="Nature and animals">Природа и животные</li>
+                <li class="lang" data-ru="Сказки" data-en="Fairytales">Сказки</li>
+                <li class="lang" data-ru="Весёлые старушки" data-en="Cheerful old ladies">Весёлые старушки</li>
+                <li class="lang" data-ru="Грибы и гномы" data-en="Mushrooms and gnomes">Грибы и гномы</li>                
+                <li class="lang" data-ru="Стимпанк" data-en="Steampunk">Стимпанк</li>
+            </ul>
+
+            <hr style="border: 0; border-top: 1px dashed #d8c8a8; margin: 20px 0;">
+            
+            <p>
+                <b class="lang" data-ru="Маленькое примечание:" data-en="A small note:">Маленькое примечание:</b> 
+                <span class="lang" 
+                      data-ru="Я не очень большой фанат ужастиков, обилия крови или скелетов. Предпочитаю что-то более уютное или сказочное." 
+                      data-en="I'm not a big fan of horror, gore, or skeletons. I prefer something more cozy or fairytale-like.">
+                      Я не очень большой фанат ужастиков, обилия крови или скелетов. Предпочитаю что-то более уютное или сказочное.
+                </span>
+            </p>
+        </div>
+    </section>
+
+    <img class="scrollStamp" id="scrollStamp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Postmark.svg/240px-Postmark.svg.png">
+
+    <footer>
+        <p class="lang" data-ru="Связаться со мной в Telegram" data-en="Get in touch via Telegram">Связаться со мной в Telegram</p>
+        <p>
+            <a href="https://t.me/Biscuitty" target="_blank" style="text-decoration:none; color: white; font-weight: bold;">
+                @Biscuitty
+            </a>
+        </p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>

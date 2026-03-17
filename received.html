@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title class="lang" data-ru="Nataly Postcrosser — Полученные открытки" data-en="Nataly Postcrosser — Received Postcards">Nataly Postcrosser — Полученные открытки</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;600&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <canvas id="bg"></canvas>
+
+    <div id="plane">✈️</div>
+
+<header>
+    <div class="logo-wrapper">
+        <div class="logoWaves">
+            <div class="wave"></div>
+            <div class="wave"></div>
+            <div class="wave"></div>
+        </div>
+        <img class="logoStamp" src="images/logo.png" alt="Logo">
+    </div>
+    <h1>Nataly Postcrosser</h1>
+    <p>From Kazakhstan with love</p>
+</header>
+
+    <nav>
+        <a href="index.html" class="lang" data-ru="Обо мне" data-en="About Me">Обо мне</a>
+        <a href="exchange.html" class="lang" data-ru="Обмен" data-en="Exchange">Обмен</a>
+        <a href="sent.html" class="lang" data-ru="Отправленные" data-en="Sent">Отправленные</a>
+        <a href="received.html" class="lang" style="color: gold;" data-ru="Полученные" data-en="Received">Полученные</a>
+        <a href="wishlist.html" class="lang" data-ru="Хотелки" data-en="Wishlist">Хотелки</a>
+
+        <div class="lang-switch">
+            <button onclick="setLanguage('ru')">RU</button>
+            <button onclick="setLanguage('en')">EN</button>
+        </div>
+    </nav>
+
+    <section id="received">
+        <h2 class="lang" data-ru="Полученные открытки" data-en="Received Postcards">Полученные открытки</h2>
+        <div class="card">
+            <p class="lang" 
+               data-ru="Здесь я собираю открытки, которые прилетели ко мне со всего мира через систему Postcrossing." 
+               data-en="Here I collect postcards that have flown to me from all over the world through the Postcrossing system.">
+               Здесь я собираю открытки, которые прилетели ко мне со всего мира через систему <b>Postcrossing</b>.
+            </p>
+            <p class="lang" 
+               data-ru="Каждая из них — это маленькое путешествие и чья-то история, застывшая на бумаге. Когда коллекция будет пополняться, я буду выкладывать их здесь." 
+               data-en="Each of them is a small journey and someone's story frozen on paper. As my collection grows, I will be posting them here.">
+               Каждая из них — это маленькое путешествие и чья-то история, застывшая на бумаге. Когда коллекция будет пополняться, я буду выкладывать их здесь.
+            </p>
+        </div>
+
+    <div class="gallery">
+    <div class="postcardCard">
+        <img class="lang-img" 
+             src="images/thumbnails/Received/receivedRU.jpg" 
+             data-src-ru="images/thumbnails/Received/receivedRU.jpg" 
+             data-src-en="images/thumbnails/Received/receivedENG.png" 
+             data-full-ru="images/full/Received/receivedRU.jpg" 
+             data-full-en="images/full/Received/receivedENG.png" 
+             alt="Postcard"
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img class="lang-img" 
+             src="images/thumbnails/Received/receivedRU.jpg" 
+             data-src-ru="images/thumbnails/Received/receivedRU.jpg" 
+             data-src-en="images/thumbnails/Received/receivedENG.png" 
+             data-full-ru="images/full/Received/receivedRU.jpg" 
+             data-full-en="images/full/Received/receivedENG.png" 
+             alt="Postcard"
+             loading="lazy">
+    </div>
+
+    <div class="postcardCard">
+        <img class="lang-img" 
+             src="images/thumbnails/Received/receivedRU.jpg" 
+             data-src-ru="images/thumbnails/Received/receivedRU.jpg" 
+             data-src-en="images/thumbnails/Received/receivedENG.png" 
+             data-full-ru="images/full/Received/receivedRU.jpg" 
+             data-full-en="images/full/Received/receivedENG.png" 
+             alt="Postcard"
+             loading="lazy">
+    </div>
+</div>
+    </section>
+
+    <img class="scrollStamp" id="scrollStamp" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Postmark.svg/240px-Postmark.svg.png">
+
+    <div id="modal">
+        <button class="modal-prev" id="prevBtn">&#10094;</button>
+        <img id="modalImg" src="" alt="Zoom">
+        <button class="modal-next" id="nextBtn">&#10095;</button>
+    </div>
+
+    <footer>
+        <p class="lang" data-ru="Связаться со мной в Telegram" data-en="Get in touch via Telegram">Связаться со мной в Telegram</p>
+        <p>
+            <a href="https://t.me/Biscuitty" target="_blank" style="text-decoration:none; color: white; font-weight: bold;">
+                @Biscuitty
+            </a>
+        </p>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+
+</body>
+</html>
